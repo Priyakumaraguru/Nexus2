@@ -15,15 +15,15 @@ pipeline{
                      Nuserid_info(JSON)
                      Nrepo_status(JSON)
                      NPrivilage(JSON)
-                    // Ndelete_repo(jsondata)*/
-                logg_nexuss("Collector & Connector function executed successfully")
-                  }
-                post
-                  {
-                      failure
-                          {
-                              logg_nexuss("Collector & Connector function not executed successfully")
-                          }
+                    Ndelete_repo(jsondata)*/
+                 NlogNexus("Repo is created")
+    }
+    post
+    {
+    failure
+    {
+      NlogNexus("Repo not created")
+    }
     
                  }
             }
