@@ -15,7 +15,7 @@ pipeline{
                      Nuserid_info(JSON)
                      Nrepo_status(JSON)
                      NPrivilage(JSON)
-                    Ndelete_repo(jsondata)
+                    Ndelete_repo(JSON)
                  NlogNexus("CONNECTOR AND COLLECTOR")
     }
     post
