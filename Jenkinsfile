@@ -6,7 +6,7 @@ pipeline{
             {
                 steps
                  { 
-                    Ncreate_repo(JSON)                
+                  /*  Ncreate_repo(JSON)                
                     Ncreate_user(JSON)
                     Nchange_pwd(JSON)
                     Ndown_artifact(JSON)
@@ -15,17 +15,17 @@ pipeline{
                      Nuserid_info(JSON)
                      Nrepo_status(JSON)
                      NPrivilage(JSON)
-                    // Ndelete_repo(jsondata)
-                //logg_nexuss("Collector & Connector function executed successfully")
+                    // Ndelete_repo(jsondata)*/
+                logg_nexuss("Collector & Connector function executed successfully")
                   }
-               /* post
+                post
                   {
                       failure
                           {
                               logg_nexuss("Collector & Connector function not executed successfully")
                           }
     
-                 }*/
+                 }
             }
             
             }  
