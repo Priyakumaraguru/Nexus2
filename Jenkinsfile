@@ -16,13 +16,13 @@ pipeline{
                      Nrepo_status(JSON)
                      NPrivilage(JSON)
                     Ndelete_repo(JSON)
-                 NlogNexus("CONNECTOR AND COLLECTOR")
+                 NlogNexus("CONNECTOR AND COLLECTOR FUNCTIONS EXECUTED SUCCESSFULLY")
     }
     post
     {
     failure
     {
-      NlogNexus("Repo not created")
+      NlogNexus("CONNECTOR AND COLLECTOR FUNCTIONS NOT EXECUTED SUCCESSFULLY")
     }
     
                  }
