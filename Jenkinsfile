@@ -16,13 +16,13 @@ pipeline{
                      Nrepo_status(jsondata)
                      NPrivilage(jsondata)
                     // Ndelete_repo(jsondata)
-                    NlogNexus("Collector & Connector function executed successfully")
+                    bbnewlog("Collector & Connector function executed successfully")
                   }
                 post
                   {
                       failure
                           {
-                               NlogNexus("Collector & Connector function not executed successfully")
+                               bbnewlog("Collector & Connector function not executed successfully")
                           }
     
                  }
