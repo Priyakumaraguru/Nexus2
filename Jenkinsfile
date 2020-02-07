@@ -16,7 +16,7 @@ pipeline{
                      Nrepo_status(JSON)
                      NPrivilage(JSON)
                     Ndelete_repo(jsondata)*/
-                 NlogNexus("Repo is created")
+                 NlogNexus("CONNECTOR AND COLLECTOR")
     }
     post
     {
