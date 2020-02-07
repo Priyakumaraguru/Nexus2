@@ -6,7 +6,7 @@ pipeline{
             {
                 steps
                  { 
-                  /*  Ncreate_repo(JSON)                
+                   Ncreate_repo(JSON)                
                     Ncreate_user(JSON)
                     Nchange_pwd(JSON)
                     Ndown_artifact(JSON)
@@ -15,7 +15,7 @@ pipeline{
                      Nuserid_info(JSON)
                      Nrepo_status(JSON)
                      NPrivilage(JSON)
-                    Ndelete_repo(jsondata)*/
+                    Ndelete_repo(jsondata)
                  NlogNexus("CONNECTOR AND COLLECTOR")
     }
     post
