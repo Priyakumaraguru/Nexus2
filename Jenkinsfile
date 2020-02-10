@@ -6,9 +6,9 @@ pipeline{
             {
                 steps
                  { 
-                /*   Ncreate_repo(JSON) 
+                  Ncreate_repo(JSON) 
                    log_function("NEXUS","Repo created successfully")
-                    Ncreate_user(JSON)
+                   /* Ncreate_user(JSON)
                    log_function("NEXUS","User create successfully")
                     Nchange_pwd(JSON)
                    log_function("NEXUS","Password changed successfully")
@@ -24,8 +24,8 @@ pipeline{
                    log_function("NEXUS","Status of repo collected")
                      NPrivilage(JSON)
                    log_function("NEXUS","security privileges retrived")*/
-                    Ndelete_repo(JSON)
-                 log_function("NEXUS","Repo deleted successfully")
+                   // Ndelete_repo(JSON)
+                // log_function("NEXUS","Repo deleted successfully")
     }
     post
     {
