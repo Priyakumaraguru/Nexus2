@@ -31,7 +31,7 @@ pipeline{
     {
     failure
     {
-      log_function("CONNECTOR AND COLLECTOR FUNCTIONS NOT EXECUTED SUCCESSFULLY")
+      log_function("NEXUS","CONNECTOR AND COLLECTOR FUNCTIONS NOT EXECUTED SUCCESSFULLY")
     }
     
                  }
